@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:background="#fff"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="#ff435d97"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="AB"
+        android:textColor="#fff"
+        android:id="@+id/tv_shortcode"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Name"
+        android:id="@+id/tv_contactName"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignTop="@+id/tv_shortcode"
+        android:layout_toRightOf="@+id/tv_shortcode"
+        android:layout_toEndOf="@+id/tv_shortcode" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9876543210"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"
+        android:id="@+id/tv_contactNumber"
+        android:layout_below="@+id/tv_contactName"
+        android:layout_alignLeft="@+id/tv_contactName"
+        android:layout_alignStart="@+id/tv_contactName" />
+
+</RelativeLayout>
